@@ -1,0 +1,109 @@
+.sp-menu {
+  padding: 120px 0;
+}
+.sp-menu__title {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #292e36;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  display: inline-block;
+  padding-top: 4px;
+}
+.sp-menu__inner {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+  margin-top: 12px;
+}
+.sp-menu__left {
+  width: 40%;
+}
+.sp-menu__leap {
+  font-family: "Cormorant Infant", serif;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+}
+.sp-menu__desc {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin: 13px 0 45px;
+}
+.sp-menu__button {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  border: 2px solid #e1b168;
+  background-color: transparent;
+  display: inline-block;
+  margin-top: 60px;
+  padding: 20px 57px;
+  transition: all 0.4s ease-in-out;
+}
+.sp-menu__button:hover {
+  background-color: #e1b168;
+  color: #fff;
+}
+.sp-menu__right {
+  width: 60%;
+}
+.sp-menu__item-current {
+  margin-bottom: 40px;
+}
+.sp-menu__heading {
+  font-family: "Cormorant Infant", serif;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+.sp-menu__list + .sp-menu__list {
+  margin-top: 74px;
+}
+.sp-menu__item + .sp-menu__item {
+  margin-top: 50px;
+}
+.sp-menu__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.sp-menu__item-left {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.sp-menu__head {
+  font-family: "Cormorant Infant", serif;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+.sp-menu__text {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+.sp-menu__item-center {
+  border-bottom: 2px solid #aaaaaa;
+  flex-grow: 1;
+  margin: 0 10px 15px;
+}
+.sp-menu__item-right {
+  font-family: "Cormorant Infant", serif;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin-bottom: 13px;
+}
