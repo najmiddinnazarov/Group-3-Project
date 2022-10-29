@@ -1,3 +1,4 @@
+/* Special-menu styles start  */
 .sp-menu {
   padding: 120px 0;
 }
@@ -107,3 +108,90 @@
   color: #292e36;
   margin-bottom: 13px;
 }
+/* Special-menu styles end  */
+/* Offer-menu styles start  */
+.offer-menu {
+  padding: 120px 0;
+}
+.offer-menu__caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.offer-menu__subtitle {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #292e36;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  display: inline-block;
+  padding-top: 4px;
+}
+.offer-menu__title {
+  font-family: "Cormorant Infant", serif;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+  margin: 12px 0 8px;
+}
+.offer-menu__desc {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #555555;
+  width: 60%;
+}
+.offer-menu__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.offer-menu__item {
+  background: url("../img/burger-pic.png") no-repeat center center / cover;
+  width: 665px;
+  height: 409px;
+  padding: 0 0 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.offer-menu__item:last-child {
+  background: url("../img/pizza-pic.png") no-repeat center center / cover;
+}
+.offer-menu__leap {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  color: #292e36;
+  padding-top: 4px;
+  border-top: 1px solid #292e36;
+  border-bottom: 1px solid #292e36;
+  width: 212px;
+  text-align: center;
+}
+.offer-menu__heading {
+  font-family: "Cormorant Infant", serif;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin: 8px 0 5px;
+}
+.offer-menu__text {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  width: 245px;
+}
+/* Offer-menu styles end  */
