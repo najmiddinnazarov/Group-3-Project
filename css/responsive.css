@@ -45,10 +45,10 @@
     line-height: 40px;
   }
   .sp-menu__list + .sp-menu__list {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .sp-menu__item + .sp-menu__item {
-    margin-top: 40px;
+    margin-top: 15px;
   }
   .sp-menu__item {
     align-items: center;
@@ -71,10 +71,13 @@
   .sp-menu__item-center {
     display: none;
   }
+  .sp-menu__item-right {
+    margin-bottom: 0;
+  }
   /* Special-menu styles end  */
   /* Offer-menu styles start  */
   .offer-menu {
-    padding: 40px 0;
+    padding: 0 0 40px;
   }
   .offer-menu__desc {
     width: 100%;
@@ -141,4 +144,82 @@
     width: 100%;
   }
   /* Reservation styles end  */
+  /* Footer styles start  */
+  .footer {
+    padding-top: 40px;
+  }
+  .footer__start {
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: start;
+  }
+  .footer__hashtag {
+    order: 3;
+  }
+  .footer__logo {
+    order: 1;
+    width: 300px;
+  }
+  .footer__logo img {
+    width: 100%;
+  }
+  .footer__social {
+    order: 2;
+  }
+  .footer__center {
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 20px;
+  }
+  .footer__contact {
+    max-width: 100%;
+    text-align: center;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__subtitle {
+    margin-bottom: 15px;
+  }
+  .footer__form {
+    max-width: 100%;
+    order: 3;
+  }
+  .footer__form input {
+    width: 70%;
+    padding: 15px;
+  }
+  .footer__form input::placeholder {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .footer__form button {
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 0;
+  }
+  .footer__worktime {
+    order: 2;
+    max-width: 100%;
+    text-align: center;
+  }
+  .footer__end {
+    flex-direction: column-reverse;
+    justify-content: start;
+    row-gap: 15px;
+  }
+  .footer__end ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 15px;
+  }
+  .footer__end p {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+  /* Footer styles end  */
 }

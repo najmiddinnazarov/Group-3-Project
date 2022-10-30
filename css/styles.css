@@ -1,6 +1,6 @@
 /* Special-menu styles start  */
 .sp-menu {
-  padding: 120px 0;
+  padding: 80px 0;
 }
 .sp-menu__title {
   font-size: 15px;
@@ -111,7 +111,7 @@
 /* Special-menu styles end  */
 /* Offer-menu styles start  */
 .offer-menu {
-  padding: 120px 0;
+  padding: 0 0 120px;
 }
 .offer-menu__caption {
   display: flex;
@@ -291,3 +291,162 @@
   color: #ffffff;
 }
 /* Reservation styles end  */
+/* Footer styles start  */
+.footer {
+  background: #292e36;
+  padding-top: 100px;
+}
+.footer__start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__hashtag p {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.footer__logo p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  width: 303px;
+  margin: 11px auto 0;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer__social svg path {
+  transition: all 0.2s ease-out;
+}
+.footer__social svg:hover path {
+  fill: #e1b168;
+}
+.footer__center {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.footer__contact {
+  max-width: 227px;
+}
+.footer__subtitle {
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  display: inline-block;
+  margin-bottom: 33px;
+}
+.footer__contact p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.footer__contact a {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  transition: all 0.3s ease-in-out;
+}
+.footer__contact a:hover {
+  color: #fff;
+}
+.footer__form {
+  display: flex;
+  align-items: center;
+  max-width: 664px;
+  height: max-content;
+}
+.footer__form input {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  border: 1px solid #858585;
+  padding: 17px 15px 18px 24px;
+  color: #fff;
+  outline: none;
+  width: 456px;
+  background-color: transparent;
+}
+.footer__form input::placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.footer__form button {
+  background: #ffffff;
+  padding: 8px 40px;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  border: 1px solid transparent;
+  color: #000000;
+  transition: all 0.4s ease-in;
+}
+.footer__form button:hover {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+.footer__worktime {
+  max-width: 264px;
+  text-align: right;
+}
+.footer__worktime p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.footer__worktime p:not(:last-child) {
+  margin-bottom: 5px;
+}
+.footer__worktime p span {
+  color: #e1b168;
+}
+.footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  border-top: 1px solid #575b62;
+}
+.footer__end p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.footer__end p span {
+  color: #e1b168;
+}
+.footer__end ul {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.footer__end ul a {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  transition: all 0.3s ease-in;
+}
+.footer__end a:hover {
+  color: #fff;
+}
+/* Footer styles end  */
