@@ -1,3 +1,23 @@
+
+/* Navbar style start */
+.container-navbar{
+  background-color: #292e36;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 26px 53px;
+}
+
+.links{
+  display: flex;
+  gap: 60px;
+  color: #fff;
+}
+a:hover{
+  color: #e1b168;
+}
+/* Navbar style end */
 /* Special-menu styles start  */
 .sp-menu {
   padding: 80px 0;
