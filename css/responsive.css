@@ -106,4 +106,39 @@
     width: 100%;
   }
   /* Offer-menu styles end  */
+  /* Reservation styles start  */
+  .reservation {
+    padding: 20px 0;
+  }
+  .reservation__inner {
+    padding: 20px;
+  }
+  .reservation__caption {
+    margin-bottom: 30px;
+  }
+  .reservation__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .reservation__form {
+    max-width: 100%;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .reservation__form div {
+    row-gap: 20px;
+    flex-direction: column;
+  }
+  .reservation__form div:first-child input:first-child,
+  .reservation__form div:first-child input:last-child,
+  .reservation__form div:nth-child(2) input,
+  .reservation__form div:nth-child(2) input:nth-child(2) {
+    width: 100%;
+    margin: 0;
+  }
+  .reservation__button {
+    padding: 15px 0;
+    width: 100%;
+  }
+  /* Reservation styles end  */
 }
