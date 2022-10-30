@@ -4,7 +4,30 @@
   .container {
     max-width: 100%;
   }
-  /* header start */
+  /* header style start */
+  header {
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  header a {
+    width: 200px;
+  }
+  .mobile-none {
+    display: none;
+  }
+  .first,
+  .second {
+    padding: 10px 20px;
+  }
+  .header__buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .header__buttons .first {
+    display: block;
+  }
+  /* Header style end */
   /* Special-menu styles start  */
   .sp-menu {
     padding: 40px 0;
@@ -223,4 +246,11 @@
     text-align: center;
   }
   /* Footer styles end  */
+}
+
+@media (max-width: 415px) {
+  header .container {
+    flex-direction: column;
+    row-gap: 15px;
+  }
 }
