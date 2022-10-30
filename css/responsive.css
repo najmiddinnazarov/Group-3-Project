@@ -4,6 +4,38 @@
   .container {
     max-width: 100%;
   }
+  /* navbar style start */
+  .container-navbar .container {
+    flex-direction: row-reverse;
+  }
+  .links {
+    position: fixed;
+    width: 68%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    background: #292e36;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    transition: 0.3s;
+    z-index: 55;
+  }
+  .open {
+    display: block;
+  }
+  #checkbox:checked ~ .links {
+    left: 0;
+  }
+  #checkbox:checked ~ .close {
+    display: block;
+  }
+  .links a {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  /* navbar style end */
   /* Special-menu styles start  */
   .sp-menu {
     padding: 40px 0;
