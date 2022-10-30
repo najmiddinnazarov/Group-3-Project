@@ -60,6 +60,48 @@
     line-height: 32px;
   }
   /* navbar style end */
+  /* about style start */
+  .about .container{
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+  }
+  .about_left{
+    width: 100%;
+  }
+  .about_right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .about_title{
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .about_text{
+    font-size: 16px;
+    line-height: 100%;
+    margin: 20px 0 0px;
+  }
+  .about_btn{
+    display: none;
+  }
+  .about_btn_n{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+  }
+  .about_btn_n:hover{
+    background-color: #e1b168;
+    color: #292E36;
+    border: 1px solid transparent;
+  
+  }
+  /* about style end */
   /* Special-menu styles start  */
   .sp-menu {
     padding: 40px 0;

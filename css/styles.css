@@ -4,48 +4,58 @@ header {
   border-bottom: 1px solid #5c6168;
   padding: 50px 0;
 }
+
 header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .btn {
   background-color: #292e36;
   color: white;
   border: 1px solid #e1b168;
   transition: all 0.4s ease-in-out;
 }
+
 .btn:hover {
   background-color: #e1b168;
   color: #292e36;
   border: 1px solid transparent;
 }
+
 .first {
   padding: 20px 57px;
 }
+
 .second {
   padding: 20px 86px;
 }
+
 .header__buttons .first {
   display: none;
 }
+
 /* Header style end */
 /* Navbar style start */
 .container-navbar {
   background-color: #292e36;
   padding: 26px 0;
 }
+
 .container-navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .links {
   display: flex;
   align-items: center;
   gap: 60px;
   color: #fff;
 }
+
 .links a {
   font-size: 20px;
   line-height: 30px;
@@ -53,16 +63,20 @@ header .container {
   color: #ffffff;
   transition: all 0.3s ease-in-out;
 }
+
 a:hover {
   color: #e1b168;
 }
+
 .burger-input {
   display: none;
 }
+
 .open {
   cursor: pointer;
   display: none;
 }
+
 .close {
   width: 100%;
   height: 100vh;
@@ -72,11 +86,93 @@ a:hover {
   left: 0;
   display: none;
 }
+
 /* Navbar style end */
+/* about style start */
+.about {
+  background-color: #292E36;
+}
+
+.about .container {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.about_left {
+  width: 50%;
+}
+.about_right{
+  width: 50%;
+}
+
+.about_title {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+
+}
+
+.about_text {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin: 26px 0 35px;
+
+}
+
+.about_btn {
+  text-align: center;
+  letter-spacing: 0.2px;
+  background-color: transparent;
+  color: #292E36;
+  padding: 20px 57px;
+  border: 1px solid #e1b168;
+  transition: all 0.3s ease-in-out;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #E1B168;
+
+}
+
+.about_btn:hover {
+  background-color: #e1b168;
+  color: #292E36;
+  border: 1px solid transparent;
+}
+.about_btn_n{
+  text-align: center;
+  letter-spacing: 0.2px;
+  background-color: transparent;
+  color: #292E36;
+  padding: 8px 20px;
+  border: 1px solid #e1b168;
+  transition: all 0.3s ease-in-out;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #E1B168;
+
+}
+
+/* about style end */
 /* Special-menu styles start  */
 .sp-menu {
   padding: 80px 0;
 }
+
 .sp-menu__title {
   font-size: 15px;
   line-height: 22px;
@@ -88,15 +184,18 @@ a:hover {
   display: inline-block;
   padding-top: 4px;
 }
+
 .sp-menu__inner {
   display: flex;
   justify-content: space-between;
   column-gap: 50px;
   margin-top: 12px;
 }
+
 .sp-menu__left {
   width: 40%;
 }
+
 .sp-menu__leap {
   font-family: "Cormorant Infant", serif;
   font-size: 40px;
@@ -105,6 +204,7 @@ a:hover {
   text-transform: capitalize;
   color: #292e36;
 }
+
 .sp-menu__desc {
   font-size: 20px;
   line-height: 30px;
@@ -112,6 +212,7 @@ a:hover {
   color: #555555;
   margin: 13px 0 45px;
 }
+
 .sp-menu__button {
   font-size: 22px;
   line-height: 33px;
@@ -124,16 +225,20 @@ a:hover {
   padding: 20px 57px;
   transition: all 0.4s ease-in-out;
 }
+
 .sp-menu__button:hover {
   background-color: #e1b168;
   color: #fff;
 }
+
 .sp-menu__right {
   width: 60%;
 }
+
 .sp-menu__item-current {
   margin-bottom: 40px;
 }
+
 .sp-menu__heading {
   font-family: "Cormorant Infant", serif;
   font-size: 36px;
@@ -141,22 +246,27 @@ a:hover {
   letter-spacing: 0.2px;
   color: #292e36;
 }
-.sp-menu__list + .sp-menu__list {
+
+.sp-menu__list+.sp-menu__list {
   margin-top: 74px;
 }
-.sp-menu__item + .sp-menu__item {
+
+.sp-menu__item+.sp-menu__item {
   margin-top: 50px;
 }
+
 .sp-menu__item {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
+
 .sp-menu__item-left {
   display: flex;
   align-items: center;
   column-gap: 20px;
 }
+
 .sp-menu__head {
   font-family: "Cormorant Infant", serif;
   font-size: 30px;
@@ -164,17 +274,20 @@ a:hover {
   letter-spacing: 0.2px;
   color: #292e36;
 }
+
 .sp-menu__text {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #555555;
 }
+
 .sp-menu__item-center {
   border-bottom: 2px solid #aaaaaa;
   flex-grow: 1;
   margin: 0 10px 15px;
 }
+
 .sp-menu__item-right {
   font-family: "Cormorant Infant", serif;
   font-size: 30px;
@@ -183,11 +296,13 @@ a:hover {
   color: #292e36;
   margin-bottom: 13px;
 }
+
 /* Special-menu styles end  */
 /* Offer-menu styles start  */
 .offer-menu {
   padding: 0 0 120px;
 }
+
 .offer-menu__caption {
   display: flex;
   flex-direction: column;
@@ -196,6 +311,7 @@ a:hover {
   text-align: center;
   margin-bottom: 40px;
 }
+
 .offer-menu__subtitle {
   font-size: 15px;
   line-height: 22px;
@@ -207,6 +323,7 @@ a:hover {
   display: inline-block;
   padding-top: 4px;
 }
+
 .offer-menu__title {
   font-family: "Cormorant Infant", serif;
   font-size: 40px;
@@ -217,6 +334,7 @@ a:hover {
   color: #292e36;
   margin: 12px 0 8px;
 }
+
 .offer-menu__desc {
   font-size: 20px;
   line-height: 30px;
@@ -225,11 +343,13 @@ a:hover {
   color: #555555;
   width: 60%;
 }
+
 .offer-menu__inner {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
+
 .offer-menu__item {
   background: url("../img/burger-pic.png") no-repeat center center / cover;
   width: 665px;
@@ -239,9 +359,11 @@ a:hover {
   flex-direction: column;
   justify-content: flex-end;
 }
+
 .offer-menu__item:last-child {
   background: url("../img/pizza-pic.png") no-repeat center center / cover;
 }
+
 .offer-menu__leap {
   font-size: 15px;
   line-height: 22px;
@@ -254,6 +376,7 @@ a:hover {
   width: 212px;
   text-align: center;
 }
+
 .offer-menu__heading {
   font-family: "Cormorant Infant", serif;
   font-size: 40px;
@@ -262,6 +385,7 @@ a:hover {
   color: #292e36;
   margin: 8px 0 5px;
 }
+
 .offer-menu__text {
   font-size: 20px;
   line-height: 30px;
@@ -269,22 +393,26 @@ a:hover {
   color: #555555;
   width: 245px;
 }
+
 /* Offer-menu styles end  */
 /* Reservation styles start  */
 .reservation {
   background: url("../img/form-bg.jpg") no-repeat center center / cover;
   padding: 140px 0;
 }
+
 .reservation__inner {
   padding: 140px 140px 150px;
   background: rgba(41, 46, 54, 0.95);
 }
+
 .reservation__caption {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 38px;
 }
+
 .reservation__subtitle {
   font-size: 15px;
   line-height: 22px;
@@ -296,6 +424,7 @@ a:hover {
   display: inline-block;
   padding-top: 4px;
 }
+
 .reservation__title {
   font-family: "Cormorant Infant", serif;
   font-size: 40px;
@@ -306,6 +435,7 @@ a:hover {
   color: #ffffff;
   margin-top: 11px;
 }
+
 .reservation__form {
   max-width: 640px;
   margin: 0 auto;
@@ -313,9 +443,11 @@ a:hover {
   flex-wrap: wrap;
   row-gap: 30px;
 }
+
 .reservation__form div {
   display: flex;
 }
+
 .reservation__form input {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
@@ -325,6 +457,7 @@ a:hover {
   color: #fff;
   outline: none;
 }
+
 .reservation__form input::placeholder {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
@@ -333,20 +466,25 @@ a:hover {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
+
 .reservation__form div:first-child input:first-child {
   width: 307px;
   margin-right: 26px;
 }
+
 .reservation__form div:first-child input:last-child {
   width: 307px;
 }
+
 .reservation__form div:nth-child(2) input {
   width: 198px;
   color-scheme: dark;
 }
+
 .reservation__form div:nth-child(2) input:nth-child(2) {
   margin: 0 23px;
 }
+
 .reservation__button {
   font-size: 22px;
   line-height: 33px;
@@ -360,28 +498,33 @@ a:hover {
   border: 1px solid transparent;
   transition: all 0.4s ease-in-out;
 }
+
 .reservation__button:hover {
   border: 1px solid #ffffff;
   background-color: transparent;
   color: #ffffff;
 }
+
 /* Reservation styles end  */
 /* Footer styles start  */
 .footer {
   background: #292e36;
   padding-top: 100px;
 }
+
 .footer__start {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .footer__hashtag p {
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.2px;
   color: #ffffff;
 }
+
 .footer__logo p {
   font-size: 20px;
   line-height: 30px;
@@ -391,25 +534,31 @@ a:hover {
   width: 303px;
   margin: 11px auto 0;
 }
+
 .footer__social {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .footer__social svg path {
   transition: all 0.2s ease-out;
 }
+
 .footer__social svg:hover path {
   fill: #e1b168;
 }
+
 .footer__center {
   display: flex;
   justify-content: space-between;
   padding: 25px 0;
 }
+
 .footer__contact {
   max-width: 227px;
 }
+
 .footer__subtitle {
   font-size: 15px;
   line-height: 21px;
@@ -421,12 +570,14 @@ a:hover {
   display: inline-block;
   margin-bottom: 33px;
 }
+
 .footer__contact p {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #ffffff;
 }
+
 .footer__contact a {
   font-size: 20px;
   line-height: 30px;
@@ -434,15 +585,18 @@ a:hover {
   color: #e1b168;
   transition: all 0.3s ease-in-out;
 }
+
 .footer__contact a:hover {
   color: #fff;
 }
+
 .footer__form {
   display: flex;
   align-items: center;
   max-width: 664px;
   height: max-content;
 }
+
 .footer__form input {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
@@ -453,6 +607,7 @@ a:hover {
   width: 456px;
   background-color: transparent;
 }
+
 .footer__form input::placeholder {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
@@ -461,6 +616,7 @@ a:hover {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
+
 .footer__form button {
   background: #ffffff;
   padding: 8px 40px;
@@ -472,27 +628,33 @@ a:hover {
   color: #000000;
   transition: all 0.4s ease-in;
 }
+
 .footer__form button:hover {
   border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
 }
+
 .footer__worktime {
   max-width: 264px;
   text-align: right;
 }
+
 .footer__worktime p {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #ffffff;
 }
+
 .footer__worktime p:not(:last-child) {
   margin-bottom: 5px;
 }
+
 .footer__worktime p span {
   color: #e1b168;
 }
+
 .footer__end {
   display: flex;
   justify-content: space-between;
@@ -500,20 +662,24 @@ a:hover {
   padding: 25px 0;
   border-top: 1px solid #575b62;
 }
+
 .footer__end p {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #ffffff;
 }
+
 .footer__end p span {
   color: #e1b168;
 }
+
 .footer__end ul {
   display: flex;
   align-items: center;
   column-gap: 20px;
 }
+
 .footer__end ul a {
   font-size: 20px;
   line-height: 30px;
@@ -521,7 +687,9 @@ a:hover {
   color: #e1b168;
   transition: all 0.3s ease-in;
 }
+
 .footer__end a:hover {
   color: #fff;
 }
+
 /* Footer styles end  */
