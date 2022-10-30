@@ -1,21 +1,44 @@
-
 /* Navbar style start */
-.container-navbar{
+.container-navbar {
   background-color: #292e36;
+  padding: 26px 0;
+}
+.container-navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  padding: 26px 53px;
 }
-
-.links{
+.links {
   display: flex;
+  align-items: center;
   gap: 60px;
   color: #fff;
 }
-a:hover{
+.links a {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
   color: #e1b168;
+}
+.burger-input {
+  display: none;
+}
+.open {
+  cursor: pointer;
+  display: none;
+}
+.close {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.701);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
 }
 /* Navbar style end */
 /* Special-menu styles start  */
