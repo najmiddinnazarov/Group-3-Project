@@ -152,6 +152,7 @@ a:hover {
   border: 1px solid transparent;
 }
 .about_btn_n{
+  display: none;
   text-align: center;
   letter-spacing: 0.2px;
   background-color: transparent;
