@@ -1,3 +1,30 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #292e36;
+  padding: 50px 40px;
+  border-bottom: 1px solid #5C6168;
+}
+.btn{
+  background-color: #292e36;
+  color: white;
+  border: 1px solid #e1b168;
+}
+.btn:hover{
+  background-color: #e1b168;
+  color: #292e36;
+  border: none;
+}
+.first{
+  padding: 20px 57px;
+}
+.second{
+  padding: 20px 86px;
+}
+
+
+
 /* Special-menu styles start  */
 .sp-menu {
   padding: 80px 0;
