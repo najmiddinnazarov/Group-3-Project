@@ -4,34 +4,42 @@
   .container {
     max-width: 100%;
   }
+
   /* header style start */
   header {
     flex-wrap: wrap;
     padding: 30px 0;
   }
+
   header a {
     width: 200px;
   }
+
   .mobile-none {
     display: none;
   }
+
   .first,
   .second {
     padding: 10px 20px;
   }
+
   .header__buttons {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
   }
+
   .header__buttons .first {
     display: block;
   }
+
   /* Header style end */
   /* navbar style start */
   .container-navbar .container {
     flex-direction: row-reverse;
   }
+
   .links {
     position: fixed;
     width: 68%;
@@ -46,30 +54,37 @@
     transition: 0.3s;
     z-index: 55;
   }
+
   .open {
     display: block;
   }
-  #checkbox:checked ~ .links {
+
+  #checkbox:checked~.links {
     left: 0;
   }
-  #checkbox:checked ~ .close {
+
+  #checkbox:checked~.close {
     display: block;
   }
+
   .links a {
     font-size: 24px;
     line-height: 32px;
   }
+
   /* navbar style end */
   /* about style start */
-  .about .container{
+  .about .container {
     flex-direction: column;
     row-gap: 20px;
     text-align: center;
   }
-  .about_left{
+
+  .about_left {
     width: 100%;
   }
-  .about_right{
+
+  .about_right {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -77,124 +92,171 @@
     padding-bottom: 20px;
     width: 100%;
   }
-  .about_title{
+
+  .about_title {
     font-size: 40px;
     line-height: 44px;
   }
-  .about_text{
+
+  .about_text {
     font-size: 16px;
     line-height: 100%;
     margin: 20px 0 0px;
   }
-  .about_btn{
+
+  .about_btn {
     display: none;
   }
-  .about_btn_n{
+
+  .about_btn_n {
     display: flex;
     width: 60%;
     justify-content: center;
     align-items: center;
   }
-  .about_btn_n:hover{
+
+  .about_btn_n:hover {
     background-color: #e1b168;
     color: #292E36;
     border: 1px solid transparent;
-  
+
   }
+
   /* about style end */
+  /* The Delicious Stroy */
+  .s-section_content {
+    display: block;
+  }
+
+  .s-section_header {
+    font-size: 32px;
+  }
+
+  .s-section_inner_content {
+    display: block;
+  }
+
+  .s-section_inner_text {
+    font-size: 18px;
+  }
+
+  /* The Delicious Stroy */
   /* Special-menu styles start  */
   .sp-menu {
     padding: 40px 0;
   }
+
   .sp-menu__title {
     text-align: center;
     margin: 0 auto;
     width: 100%;
   }
+
   .sp-menu__inner {
     flex-direction: column;
     row-gap: 30px;
   }
+
   .sp-menu__left {
     width: 100%;
     text-align: center;
   }
+
   .sp-menu__desc {
     margin: 13px 0 30px;
   }
+
   .sp-menu__image {
     width: 100%;
     height: 500px;
     object-fit: cover;
   }
+
   .sp-menu__button {
     width: 100%;
     padding: 10px 0;
     margin-top: 30px;
   }
+
   .sp-menu__right {
     width: 100%;
     text-align: center;
   }
+
   .sp-menu__item-current {
     margin-bottom: 20px;
   }
+
   .sp-menu__heading {
     line-height: 40px;
   }
-  .sp-menu__list + .sp-menu__list {
+
+  .sp-menu__list+.sp-menu__list {
     margin-top: 20px;
   }
-  .sp-menu__item + .sp-menu__item {
+
+  .sp-menu__item+.sp-menu__item {
     margin-top: 15px;
   }
+
   .sp-menu__item {
     align-items: center;
     flex-direction: column;
   }
+
   .sp-menu__item-left {
     align-items: center;
     flex-direction: column;
     row-gap: 15px;
   }
+
   .sp-menu__head {
     font-size: 24px;
     line-height: 100%;
     margin-bottom: 10px;
   }
+
   .sp-menu__text {
     font-size: 16px;
     line-height: 100%;
   }
+
   .sp-menu__item-center {
     display: none;
   }
+
   .sp-menu__item-right {
     margin-bottom: 0;
   }
+
   /* Special-menu styles end  */
   /* Offer-menu styles start  */
   .offer-menu {
     padding: 0 0 40px;
   }
+
   .offer-menu__desc {
     width: 100%;
   }
+
   .offer-menu__inner {
     flex-direction: column;
   }
+
   .offer-menu__item {
     width: 100%;
     height: 270px;
     padding: 0;
     text-align: center;
   }
+
   .offer-menu__leap {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.6);
     border-top: 1px solid rgba(255, 255, 255, 1);
     border-bottom: 1px solid rgba(255, 255, 255, 1);
   }
+
   .offer-menu__heading {
     font-size: 32px;
     line-height: 28px;
@@ -202,34 +264,42 @@
     padding: 12px 0;
     background-color: rgba(255, 255, 255, 0.6);
   }
+
   .offer-menu__text {
     background-color: rgba(255, 255, 255, 0.6);
     width: 100%;
   }
+
   /* Offer-menu styles end  */
   /* Reservation styles start  */
   .reservation {
     padding: 20px 0;
   }
+
   .reservation__inner {
     padding: 20px;
   }
+
   .reservation__caption {
     margin-bottom: 30px;
   }
+
   .reservation__title {
     font-size: 35px;
     line-height: 40px;
   }
+
   .reservation__form {
     max-width: 100%;
     flex-direction: column;
     row-gap: 20px;
   }
+
   .reservation__form div {
     row-gap: 20px;
     flex-direction: column;
   }
+
   .reservation__form div:first-child input:first-child,
   .reservation__form div:first-child input:last-child,
   .reservation__form div:nth-child(2) input,
@@ -237,38 +307,47 @@
     width: 100%;
     margin: 0;
   }
+
   .reservation__button {
     padding: 15px 0;
     width: 100%;
   }
+
   /* Reservation styles end  */
   /* Footer styles start  */
   .footer {
     padding-top: 40px;
   }
+
   .footer__start {
     flex-direction: column;
     row-gap: 20px;
     justify-content: start;
   }
+
   .footer__hashtag {
     order: 3;
   }
+
   .footer__logo {
     order: 1;
     width: 300px;
   }
+
   .footer__logo img {
     width: 100%;
   }
+
   .footer__social {
     order: 2;
   }
+
   .footer__center {
     flex-direction: column;
     justify-content: start;
     row-gap: 20px;
   }
+
   .footer__contact {
     max-width: 100%;
     text-align: center;
@@ -277,21 +356,26 @@
     flex-direction: column;
     align-items: center;
   }
+
   .footer__subtitle {
     margin-bottom: 15px;
   }
+
   .footer__form {
     max-width: 100%;
     order: 3;
   }
+
   .footer__form input {
     width: 70%;
     padding: 15px;
   }
+
   .footer__form input::placeholder {
     font-size: 18px;
     line-height: 22px;
   }
+
   .footer__form button {
     width: 30%;
     height: 100%;
@@ -299,26 +383,31 @@
     line-height: 22px;
     padding: 10px 0;
   }
+
   .footer__worktime {
     order: 2;
     max-width: 100%;
     text-align: center;
   }
+
   .footer__end {
     flex-direction: column-reverse;
     justify-content: start;
     row-gap: 15px;
   }
+
   .footer__end ul {
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 15px;
   }
+
   .footer__end p {
     font-size: 15px;
     line-height: 20px;
     text-align: center;
   }
+
   /* Footer styles end  */
 }
 
