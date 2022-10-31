@@ -207,6 +207,42 @@
     width: 100%;
   }
   /* Offer-menu styles end  */
+  /* popular dishes start */
+  .popular{
+    padding-bottom: 40px;
+  }
+  .popular_title{
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .popular_text{
+    width: 100%;
+    line-height: 22px;
+  }
+  .popular_inner{
+    flex-direction: column;
+    margin: 30px 0 35px;
+    justify-content: start;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .popular_item{
+    width: 100%;
+  }
+  .popular_item img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .popular_desc{
+    text-align: center;
+  }
+  .popular_btn{
+    padding: 10px 20px;
+    width: 80%;
+  }
+
+
+  /* popular dishes end */
   /* Reservation styles start  */
   .reservation {
     padding: 20px 0;
