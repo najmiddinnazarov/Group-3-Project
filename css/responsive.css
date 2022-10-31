@@ -271,6 +271,14 @@
   }
 
   /* Offer-menu styles end  */
+  /* Blog */
+  .blog_cards{
+    display: block;
+  }
+  .blog_card{
+    width: 100%;
+  }
+  /* Blog */
   /* Reservation styles start  */
   .reservation {
     padding: 20px 0;
