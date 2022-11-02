@@ -171,6 +171,52 @@ a:hover {
 }
 
 /* about style end */
+/*Info style start*/
+.desktopU{
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background-color: #fff8f5;
+}
+.desktopU .container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.inner_desktopU{
+ align-items: center;
+ display: flex;
+ gap: 20px;
+
+}
+.imageU{
+  background: #292E36;
+  border-radius: 50%;
+  width: 83px;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0.34px;
+}
+.locationU{
+
+font-family: 'Cormorant Infant';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 39px;
+letter-spacing: 0.2px;
+color: #292E36;
+}
+.paragraphU{
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.2px;
+color: #555555;
+}
+/*Info style end*/
 /* Special-menu styles start  */
 .sp-menu {
   padding: 80px 0;
@@ -511,6 +557,98 @@ a:hover {
 
 
 /* popular dishes end*/
+/*Our great services start*/
+.start_of_services{
+  background-color: #292E36
+}
+
+.udemy{
+  width: 400px;
+
+}
+.inner_div1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 515px;
+
+}
+.offering{
+  border-bottom: 1px solid #e1b168;
+  border-top: 1px solid #e1b168;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 2px;
+  color: #ffffff;;
+  font-family: 'Josefin Sans';
+}
+.service_man{
+  text-transform: capitalize;
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.paragraph_me{
+  color: #ffffff;
+
+}
+.image_calendar{
+  box-sizing: border-box;
+  height: 235px;
+  border: 20px solid #323841;
+  align-items: center;
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+.image_moto{
+  box-sizing: border-box;
+  height: 235px;
+  border: 20px solid #323841;
+  align-items: center;
+  justify-content: center;
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.image_menu{
+  box-sizing: border-box;
+  height: 235px;
+  border: 20px solid #323841;
+  align-items: center;
+  width: 254px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}  
+.openin{
+color: #ffffff;
+text-transform: capitalize;
+font-family: Cormorant Infant;
+}
+.special{
+color: #ffffff;
+text-transform: capitalize;
+font-family: Cormorant Infant;
+
+}
+.home{
+color: #ffffff;
+text-transform: capitalize;
+font-family: Cormorant Infant;
+
+}
+/*Our great services end*/
 /* Reservation styles start  */
 .reservation {
   background: url("../img/form-bg.jpg") no-repeat center center / cover;
