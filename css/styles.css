@@ -507,11 +507,16 @@ a:hover {
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.44px;
+  color: #000;
 }
 
 .blog_card:hover .card_link {
   opacity: 1;
 }
+
+/* .card_link:hover{
+  color: #000000;
+} */
 
 .card_content {
   padding: 50px 47px 39px 46px;
@@ -526,7 +531,9 @@ a:hover {
   display: flex;
   gap: 30px;
 }
-
+.card_title{
+  color: #000000!important;
+}
 /* Blog */
 
 /* Reservation styles start  */
