@@ -90,7 +90,7 @@ a:hover {
 /* Navbar style end */
 /* about style start */
 .about {
-  background-color: #292E36;
+  background-color: #292e36;
 }
 
 .about .container {
@@ -108,33 +108,31 @@ a:hover {
 }
 
 .about_title {
-  font-family: 'Cormorant Infant';
+  font-family: "Cormorant Infant";
   font-style: normal;
   font-weight: 400;
   font-size: 100px;
   line-height: 110px;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .about_text {
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 26px 0 35px;
-
 }
 
 .about_btn {
   text-align: center;
   letter-spacing: 0.2px;
   background-color: transparent;
-  color: #292E36;
+  color: #292e36;
   padding: 20px 57px;
   border: 1px solid #e1b168;
   transition: all 0.3s ease-in-out;
@@ -143,13 +141,12 @@ a:hover {
   text-align: center;
   letter-spacing: 0.2px;
 
-  color: #E1B168;
-
+  color: #e1b168;
 }
 
 .about_btn:hover {
   background-color: #e1b168;
-  color: #292E36;
+  color: #292e36;
   border: 1px solid transparent;
 }
 
@@ -158,7 +155,7 @@ a:hover {
   text-align: center;
   letter-spacing: 0.2px;
   background-color: transparent;
-  color: #292E36;
+  color: #292e36;
   padding: 8px 20px;
   border: 1px solid #e1b168;
   transition: all 0.3s ease-in-out;
@@ -166,8 +163,7 @@ a:hover {
   line-height: 33px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #E1B168;
-
+  color: #e1b168;
 }
 
 /* about style end */
@@ -204,13 +200,49 @@ a:hover {
 
 .s-section_inner_text {
   font-size: 20px;
+=======
+/*Info style start*/
+.desktopU {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background-color: #fff8f5;
+}
+.desktopU .container {
+  display: flex;
+  justify-content: space-between;
+}
+.inner_desktopU {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.imageU {
+  background: #292e36;
+  border-radius: 50%;
+  width: 83px;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0.34px;
+}
+.locationU {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+.paragraphU {
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #555555;
 }
-
 .s-section_inner_content {
   display: flex;
   justify-content: space-between;
@@ -227,11 +259,11 @@ a:hover {
 }
 
 /* The Delicious Story */
+/*Info style end*/
 /* Special-menu styles start  */
 .sp-menu {
   padding: 80px 0;
 }
-
 .sp-menu__title {
   font-size: 15px;
   line-height: 22px;
@@ -243,7 +275,6 @@ a:hover {
   display: inline-block;
   padding-top: 4px;
 }
-
 .sp-menu__inner {
   display: flex;
   justify-content: space-between;
@@ -306,11 +337,11 @@ a:hover {
   color: #292e36;
 }
 
-.sp-menu__list+.sp-menu__list {
+.sp-menu__list + .sp-menu__list {
   margin-top: 74px;
 }
 
-.sp-menu__item+.sp-menu__item {
+.sp-menu__item + .sp-menu__item {
   margin-top: 50px;
 }
 
@@ -454,6 +485,205 @@ a:hover {
 }
 
 /* Offer-menu styles end  */
+/* popular dishes start */
+
+.popular {
+  padding-bottom: 80px;
+}
+
+.popular_caption {
+  text-align: center;
+}
+
+.popular_subtitle {
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #292e36;
+  padding-top: 4px;
+}
+
+.popular_title {
+  font-family: "Cormorant Infant";
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+  margin: 12px 0 8px;
+}
+
+.popular_text {
+  width: 45%;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #555555;
+}
+
+.popular_inner {
+  margin: 50px 0 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular_item {
+  width: 318px;
+}
+
+.popular_sum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 9px 0 13px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.popular_sum h1 {
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+
+.popular_sum p {
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+
+.popular_desc {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+
+.popular_btn {
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  background-color: #ffffff;
+  border: 2px solid #e1b168;
+  margin: 0 auto;
+  display: block;
+  padding: 20px 57px;
+  transition: all 0.3s ease-in-out;
+}
+.popular_btn:hover {
+  background-color: #e1b168;
+  color: #fff;
+}
+
+/* popular dishes end*/
+/*Our great services start*/
+.start_of_services {
+  background-color: #292e36;
+}
+
+.udemy {
+  width: 400px;
+}
+.inner_div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 515px;
+}
+.offering {
+  border-bottom: 1px solid #e1b168;
+  border-top: 1px solid #e1b168;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 4px;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 3px;
+}
+.service_man {
+  text-transform: capitalize;
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: 11px 0 13px;
+}
+.paragraph_me {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+.image_calendar {
+  box-sizing: border-box;
+  height: 235px;
+  border: 20px solid #323841;
+  align-items: center;
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+.image_moto {
+  box-sizing: border-box;
+  height: 235px;
+  border: 20px solid #323841;
+  align-items: center;
+  justify-content: center;
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.image_menu {
+  box-sizing: border-box;
+  height: 235px;
+  border: 20px solid #323841;
+  align-items: center;
+  width: 254px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.openin {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: Cormorant Infant;
+}
+.special {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: Cormorant Infant;
+}
+.home {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: Cormorant Infant;
+}
+/*Our great services end*/
 /* Reservation styles start  */
 .reservation {
   background: url("../img/form-bg.jpg") no-repeat center center / cover;
