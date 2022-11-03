@@ -61,15 +61,15 @@
   }
   /* navbar style end */
   /* about style start */
-  .about .container{
+  .about .container {
     flex-direction: column;
     row-gap: 20px;
     text-align: center;
   }
-  .about_left{
+  .about_left {
     width: 100%;
   }
-  .about_right{
+  .about_right {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -77,31 +77,57 @@
     padding-bottom: 20px;
     width: 100%;
   }
-  .about_title{
+  .about_title {
     font-size: 40px;
     line-height: 44px;
   }
-  .about_text{
+  .about_text {
     font-size: 16px;
     line-height: 100%;
     margin: 20px 0 0px;
   }
-  .about_btn{
+  .about_btn {
     display: none;
   }
-  .about_btn_n{
+  .about_btn_n {
     display: flex;
     width: 60%;
     justify-content: center;
     align-items: center;
   }
-  .about_btn_n:hover{
+  .about_btn_n:hover {
     background-color: #e1b168;
-    color: #292E36;
+    color: #292e36;
     border: 1px solid transparent;
-  
   }
-  /* about style end */
+  /* About style end */
+  /* Info style start */
+  .desktopU {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .desktopU .container {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .imageU {
+    width: 50px;
+    height: 50px;
+  }
+  .imageU img {
+    width: 30px;
+  }
+  .locationU {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .paragraphU {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  /* Info style end */
   /* Special-menu styles start  */
   .sp-menu {
     padding: 40px 0;
@@ -208,41 +234,66 @@
   }
   /* Offer-menu styles end  */
   /* popular dishes start */
-  .popular{
+  .popular {
     padding-bottom: 40px;
   }
-  .popular_title{
+  .popular_title {
     font-size: 28px;
     line-height: 30px;
   }
-  .popular_text{
+  .popular_text {
     width: 100%;
     line-height: 22px;
   }
-  .popular_inner{
+  .popular_inner {
     flex-direction: column;
     margin: 30px 0 35px;
     justify-content: start;
     align-items: center;
     row-gap: 20px;
   }
-  .popular_item{
+  .popular_item {
     width: 100%;
   }
-  .popular_item img{
+  .popular_item img {
     width: 100%;
     object-fit: cover;
   }
-  .popular_desc{
+  .popular_desc {
     text-align: center;
   }
-  .popular_btn{
+  .popular_btn {
     padding: 10px 20px;
     width: 80%;
   }
-
-
   /* popular dishes end */
+  /* Services style start */
+  .start_of_services {
+    padding: 30px 0;
+  }
+  .inner_div1 {
+    flex-direction: column;
+    height: auto;
+    row-gap: 20px;
+  }
+  .udemy {
+    width: 100%;
+    text-align: center;
+  }
+  .service_man {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .paragraph_me {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .image_moto,
+  .image_menu,
+  .image_calendar {
+    width: 100%;
+  }
+  /* Services style end */
   /* Reservation styles start  */
   .reservation {
     padding: 20px 0;
@@ -362,5 +413,19 @@
   header .container {
     flex-direction: column;
     row-gap: 15px;
+  }
+}
+@media (max-width: 380px) {
+  .inner_desktopU {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+  }
+  .imageU {
+    width: 60px;
+    height: 60px;
+  }
+  .imageU img {
+    width: 40px;
   }
 }
