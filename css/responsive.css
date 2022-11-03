@@ -1,5 +1,4 @@
 /* Must be adapted to a screen with a minimum of 320 to a maximum of 480 px */
-
 @media (max-width: 480px) {
   .container {
     max-width: 100%;
@@ -69,6 +68,9 @@
   .about_left {
     width: 100%;
   }
+  .about_left {
+    width: 100%;
+  }
   .about_right {
     display: flex;
     align-items: center;
@@ -89,6 +91,9 @@
   .about_btn {
     display: none;
   }
+  .about_btn {
+    display: none;
+  }
   .about_btn_n {
     display: flex;
     width: 60%;
@@ -100,6 +105,21 @@
     color: #292e36;
     border: 1px solid transparent;
   }
+  /* about style end */
+  /* The Delicious Stroy */
+  .s-section_content {
+    display: block;
+  }
+  .s-section_header {
+    font-size: 32px;
+  }
+  .s-section_inner_content {
+    display: block;
+  }
+  .s-section_inner_text {
+    font-size: 18px;
+  }
+  /* The Delicious Stroy */
   /* About style end */
   /* Info style start */
   .desktopU {
@@ -233,6 +253,13 @@
     width: 100%;
   }
   /* Offer-menu styles end  */
+  /* Blog */
+  .blog_cards {
+    display: block;
+  }
+  .blog_card {
+    width: 100%;
+  }
   /* popular dishes start */
   .popular {
     padding-bottom: 40px;
@@ -408,7 +435,6 @@
   }
   /* Footer styles end  */
 }
-
 @media (max-width: 415px) {
   header .container {
     flex-direction: column;
