@@ -621,19 +621,37 @@ a:hover {
   gap: 15px;
 }
 .openin {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.2px;
   color: #ffffff;
   text-transform: capitalize;
-  font-family: Cormorant Infant;
 }
 .special {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.2px;
   color: #ffffff;
   text-transform: capitalize;
-  font-family: Cormorant Infant;
 }
 .home {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.2px;
   color: #ffffff;
   text-transform: capitalize;
-  font-family: Cormorant Infant;
 }
 /*Our great services end*/
 /* Reservation styles start  */
