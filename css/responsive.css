@@ -1,5 +1,4 @@
 /* Must be adapted to a screen with a minimum of 320 to a maximum of 480 px */
-
 @media (max-width: 480px) {
   .container {
     max-width: 100%;
@@ -130,13 +129,16 @@
   .s-section_inner_content {
     display: block;
   }
-
   .s-section_inner_text {
     font-size: 18px;
   }
 
   /* The Delicious Stroy */
   }
+  .s-section_inner_text {
+    font-size: 18px;
+  }
+  /* The Delicious Stroy */
   /* About style end */
   /* Info style start */
   .desktopU {
@@ -293,6 +295,13 @@
   }
 
   /* Offer-menu styles end  */
+  /* Blog */
+  .blog_cards {
+    display: block;
+  }
+  .blog_card {
+    width: 100%;
+  }
   /* popular dishes start */
   .popular {
     padding-bottom: 40px;
@@ -493,7 +502,6 @@
 
   /* Footer styles end  */
 }
-
 @media (max-width: 415px) {
   header .container {
     flex-direction: column;
