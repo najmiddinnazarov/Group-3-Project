@@ -4,7 +4,6 @@
   .container {
     max-width: 100%;
   }
-
   /* header style start */
   header {
     flex-wrap: wrap;
@@ -59,11 +58,11 @@
     display: block;
   }
 
-  #checkbox:checked~.links {
+  #checkbox:checked ~ .links {
     left: 0;
   }
 
-  #checkbox:checked~.close {
+  #checkbox:checked ~ .close {
     display: block;
   }
 
@@ -227,11 +226,11 @@
     line-height: 40px;
   }
 
-  .sp-menu__list+.sp-menu__list {
+  .sp-menu__list + .sp-menu__list {
     margin-top: 20px;
   }
 
-  .sp-menu__item+.sp-menu__item {
+  .sp-menu__item + .sp-menu__item {
     margin-top: 15px;
   }
 
@@ -431,6 +430,35 @@
 
   .blog_card {
     width: 100%;
+    margin-bottom: 30px;
+  }
+  .blog_card:last-child {
+    margin-bottom: 0;
+  }
+  .blog_content {
+    padding: 40px 0;
+  }
+  .blog_header {
+    margin-bottom: 20px;
+  }
+  .blog_header .s-section_header {
+    line-height: 40px;
+    margin-bottom: 0;
+  }
+  .card_text {
+    justify-content: center;
+  }
+  .card_content {
+    padding: 30px;
+    text-align: center;
+  }
+  .card_content .s-section_header {
+    font-size: 35px;
+    line-height: 36px;
+  }
+  .card_link {
+    opacity: 1;
+    padding: 10px 40px;
   }
 
   /* Blog end*/
@@ -584,6 +612,10 @@
   .card-header img {
     margin: 0 auto;
   }
+  .card_link {
+    opacity: 1;
+    padding: 10px 20px;
+  }
 }
 
 @media (max-width: 415px) {
@@ -591,6 +623,23 @@
     flex-direction: column;
     row-gap: 15px;
   }
+  /* Blog style start */
+  .card_text {
+    flex-direction: column;
+    gap: 0;
+  }
+  .card_text .card_title {
+    padding: 5px 0;
+  }
+  .card_content .s-section_header {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .card_content .s-section_inner_text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  /* Blog style end */
 }
 
 @media (max-width: 380px) {
@@ -662,4 +711,19 @@
   }
 
   /* Slider end */
+  /* Blog style start */
+  .blog_header .s-section_header {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .blog_header .s-section_inner_text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card_link a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  /* Blog style end */
 }
