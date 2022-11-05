@@ -128,6 +128,27 @@
     line-height: 18px;
   }
   /* Info style end */
+  /* The Delicious Stroy start*/
+  .s-section{
+    padding: 40px 0;
+  }
+  .s-section_content {
+    display: block;
+  }
+
+  .s-section_header {
+    font-size: 32px;
+  }
+
+  .s-section_inner_content {
+    display: block;
+  }
+
+  .s-section_inner_text {
+    font-size: 18px;
+  }
+
+  /* The Delicious Stroy end*/
   /* Special-menu styles start  */
   .sp-menu {
     padding: 40px 0;
