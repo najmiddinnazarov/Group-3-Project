@@ -409,6 +409,61 @@
       </div>
     </section>
     <!-- Try Our Special dishes end -->
+    <!-- Slider start -->
+    <section class="slider-section">
+      <div class="container">
+        <div class="slider-header">
+          <p class="footer__subtitle">Testimonial</p>
+          <h1>our clients say</h1>
+          <p class="slider-header_subtitle">We love to hear from customers, so please leave a comment or say hello in an email.</p>
+        </div>
+        <div class="slider">
+          <div class="slider-card">
+            <div class="card-header">
+              <img src="./img/natasha-pic.png" alt="natasha">
+              <div>
+                <h1>Natasha D</h1>
+                <p class="card-header_subtitle">Newyork</p>
+              </div>
+            </div>
+            <div class="card-line"></div>
+            <p class="slider-content">
+              They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy.
+            </p>
+          </div>
+          <div class="slider-card">
+            <div class="card-header">
+              <img src="./img/jack-pic.png" alt="jack">
+              <div>
+                <h1>Jack Sparrow</h1>
+                <p class="card-header_subtitle">Salt Lake City</p>
+              </div>
+            </div>
+            <div class="card-line"></div>
+            <p class="slider-content">
+              I have visited this fantastic restaurant on several occasions, food is absolutely outstanding & attention to detail is in league of its own.
+            </p>
+          </div>
+          <div class="slider-card">
+            <div class="card-header">
+              <img src="./img/martin-pic.png" alt="natasha">
+              <div>
+                <h1>Martin</h1>
+                <p class="card-header_subtitle">San Diego</p>
+              </div>
+            </div>
+            <div class="card-line"></div>
+            <p class="slider-content">
+              Perfectly known for its fabulous taste and food. Anywhere your hunger is satisfied. They give best fried chicken and burgers those are yummy.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="./img/lamp-pic.jpg" alt="">
+      </div>
+    </section>
+    <!-- Slider end -->
     <!-- Our Offer dishes start -->
     <section class="offer-menu">
       <div class="offer-menu__caption">
@@ -682,5 +737,44 @@
       </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- Slider Link start-->
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+    <!-- Slider Link end-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+      $('.slider').slick({
+        infinite: false,
+        slidesToShow: 2,
+        infinite: true,
+        slidesToScroll:1,
+        dots: true,
+        arrows: false,
+        //autoplay: true,
+        //loop: true,
+        //autoplaySpeed: 2000,
+        responsive:[
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow:1,
+              slidesToScroll: 1,
+              dots: true,
+            }
+          },
+        ]
+      });
+    </script>
   </body>
 </html>
