@@ -269,7 +269,12 @@
     margin-bottom: 40px;
     padding-top: 40px;
   }
-
+  .slider-header {
+    text-align: center;
+  }
+  .slider {
+    margin-top: 30px;
+  }
   .slider-header {
     text-align: center;
   }
@@ -281,7 +286,25 @@
   .slider-card {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin: 0 20px;
   }
+
+  .slider-content {
+    text-align: center;
+  }
+  .card-header {
+    justify-content: center;
+  }
+  .card-header h1 {
+    font-size: 25px;
+  }
+  .card-line {
+    margin: 15px 0;
+  }
+  .slick-dots li button:before {
+    margin-top: 40px;
+  }
+
 
   .slider-content {
     text-align: center;
@@ -302,6 +325,7 @@
   .slick-dots li button:before {
     margin-top: 40px;
   }
+
 
   .slider-img {
     margin-top: 100px;
@@ -608,7 +632,6 @@
     margin: 0 auto;
     text-align: center;
   }
-
   .card-header img {
     margin: 0 auto;
   }
@@ -663,7 +686,15 @@
     margin-bottom: 40px;
     padding-top: 40px;
   }
-
+  .slider-card {
+    padding: 10px 5px;
+  }
+  .slider-header {
+    text-align: center;
+  }
+  .slider {
+    margin-top: 30px;
+  }
   .slider-card {
     padding: 10px 5px;
   }
@@ -681,6 +712,9 @@
     margin: 0 auto;
     text-align: center;
   }
+  .card-header img {
+    margin: 0 auto;
+  }
 
   .card-header img {
     margin: 0 auto;
@@ -691,7 +725,12 @@
     font-size: 20px;
     line-height: 24px;
   }
-
+  .card-line {
+    margin: 10px 0;
+  }
+  .slick-dots li button:before {
+    margin-top: 30px;
+  }
   .card-line {
     margin: 10px 0;
   }
@@ -699,12 +738,10 @@
   .slick-dots li button:before {
     margin-top: 30px;
   }
-
   .slider-img {
     height: 300px;
     margin-top: 80px;
   }
-
   .slider-img img {
     height: 100%;
     object-fit: cover;
