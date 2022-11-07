@@ -249,6 +249,7 @@
   background-color: transparent;
   color: #fff;
   outline: none;
+  font-size: 18px;
 }
 .reservation__form input::placeholder {
   font-family: "Josefin Sans", sans-serif;
