@@ -213,7 +213,7 @@ a:hover {
 /* The Delicious Story start*/
 .s-section {
   padding: 84px 0 125px 0;
-  background-color: #FFF8F5;
+  background-color: #fff8f5;
 }
 
 .s-section_content {
@@ -230,13 +230,13 @@ a:hover {
 }
 
 .s-section_header {
-  font-family: 'Cormorant Infant';
+  font-family: "Cormorant Infant";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 56px;
   letter-spacing: 0.2px;
-  color: #292E36;
+  color: #292e36;
   margin-bottom: 15px;
   font-size: 40px;
 }
@@ -400,30 +400,30 @@ a:hover {
 /* Slider start */
 .slider-section {
   width: 100%;
-  background-color: #292E36;
+  background-color: #292e36;
   padding: 130px 0 0 0;
   margin-bottom: 60px;
 }
 
 .slider-header h1 {
-  font-family: 'Cormorant Infant';
+  font-family: "Cormorant Infant";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 56px;
   letter-spacing: 0.2px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .slider-header_subtitle {
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .slider {
@@ -450,7 +450,7 @@ a:hover {
 }
 
 .card-header h1 {
-  font-family: 'Cormorant Infant';
+  font-family: "Cormorant Infant";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -460,45 +460,44 @@ a:hover {
 }
 
 .card-header_subtitle {
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
-  color: #E1B168;
+  color: #e1b168;
 }
 
 .card-line {
   width: 100%;
   height: 1px;
-  background-color: #797E89;
+  background-color: #797e89;
   margin: 30px 0;
 }
 
 .slider-content {
-  font-family: 'Cormorant Infant';
+  font-family: "Cormorant Infant";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   letter-spacing: 0.25px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.slider-img{
+.slider-img {
   width: 100%;
   margin-top: 230px;
 }
-.slider-img img{
+.slider-img img {
   width: 100%;
 }
-.slick-dots li button:before{
+.slick-dots li button:before {
   margin-top: 75px;
   margin-bottom: 130px;
-  font-size: 20px!important;
-  color: #fff!important;
+  font-size: 20px !important;
+  color: #fff !important;
 }
 /* Slider end */
-
 
 /* Offer-menu styles start  */
 .offer-menu {
@@ -814,6 +813,85 @@ a:hover {
   text-transform: capitalize;
 }
 /*Our great services end*/
+
+/* Blog start */
+.blog_content {
+  padding: 60px 0;
+}
+
+.blog_header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.b-header {
+  margin-bottom: 8px;
+}
+
+.blog_cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.blog_card {
+  border: 1px solid #c4c4c4;
+}
+
+.card_img {
+  width: 100%;
+  position: relative;
+}
+
+.card_img img {
+  width: 100%;
+}
+
+.card_link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px 57px;
+  transform: translate(-50%, -50%);
+  background-color: #e1b168;
+  opacity: 0;
+  transition: 0.3s all linear;
+}
+
+.card_link a {
+  font-size: 22px;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.44px;
+  color: #000;
+}
+
+.blog_card:hover .card_link {
+  opacity: 1;
+}
+
+.card_content {
+  padding: 50px 47px 39px 46px;
+}
+
+.card_header {
+  font-size: 35px;
+  margin: 25px 0;
+}
+
+.card_text {
+  display: flex;
+  gap: 30px;
+}
+.card_text .footer__subtitle {
+  margin-bottom: 10px;
+}
+.card_title {
+  color: #000000 !important;
+}
+/* Blog end*/
 /* Reservation styles start  */
 .reservation {
   background: url("../img/form-bg.jpg") no-repeat center center / cover;
@@ -875,6 +953,7 @@ a:hover {
   background-color: transparent;
   color: #fff;
   outline: none;
+  font-size: 18px;
 }
 
 .reservation__form input::placeholder {
