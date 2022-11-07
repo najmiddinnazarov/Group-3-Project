@@ -129,7 +129,7 @@
   }
   /* Info style end */
   /* The Delicious Stroy start*/
-  .s-section{
+  .s-section {
     padding: 40px 0;
   }
   .s-section_content {
@@ -220,36 +220,37 @@
     margin-bottom: 0;
   }
   /* Special-menu styles end  */
-  .slider-section{
+  .slider-section {
     margin-bottom: 40px;
     padding-top: 40px;
   }
-  .slider-header{
+  .slider-header {
     text-align: center;
   }
-  .slider{
+  .slider {
     margin-top: 30px;
   }
-  .slider-card{
+  .slider-card {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin: 0 20px;
   }
-  .slider-content{
+  .slider-content {
     text-align: center;
   }
-  .card-header{
+  .card-header {
     justify-content: center;
   }
-  .card-header h1{
+  .card-header h1 {
     font-size: 25px;
   }
-  .card-line{
+  .card-line {
     margin: 15px 0;
   }
-  .slick-dots li button:before{
+  .slick-dots li button:before {
     margin-top: 40px;
   }
-  .slider-img{
+  .slider-img {
     margin-top: 100px;
   }
   /* Offer-menu styles start  */
@@ -462,12 +463,12 @@
   /* Footer styles end  */
 }
 @media (max-width: 440px) {
-  .card-header{
+  .card-header {
     display: block;
     margin: 0 auto;
     text-align: center;
   }
-  .card-header img{
+  .card-header img {
     margin: 0 auto;
   }
 }
@@ -491,43 +492,43 @@
     width: 40px;
   }
   /* Slider start */
-  .slider-section{
+  .slider-section {
     margin-bottom: 40px;
     padding-top: 40px;
   }
-  .slider-card{
+  .slider-card {
     padding: 10px 5px;
   }
-  .slider-header{
+  .slider-header {
     text-align: center;
   }
-  .slider{
+  .slider {
     margin-top: 30px;
   }
-  .card-header{
+  .card-header {
     display: block;
     margin: 0 auto;
     text-align: center;
   }
-  .card-header img{
+  .card-header img {
     margin: 0 auto;
   }
-  .slider-content{
+  .slider-content {
     text-align: center;
     font-size: 20px;
     line-height: 24px;
   }
-  .card-line{
+  .card-line {
     margin: 10px 0;
   }
-  .slick-dots li button:before{
+  .slick-dots li button:before {
     margin-top: 30px;
   }
-  .slider-img{
+  .slider-img {
     height: 300px;
     margin-top: 80px;
   }
-  .slider-img img{
+  .slider-img img {
     height: 100%;
     object-fit: cover;
   }
